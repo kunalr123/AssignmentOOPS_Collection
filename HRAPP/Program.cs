@@ -7,6 +7,8 @@ namespace HRAPP
         static void Main(string[] args)
         {
 
+            //git region this is for comment git learning
+
             ConfirmEmployee employee;
             ConfirmEmployee employee1;
                 try
@@ -41,7 +43,10 @@ namespace HRAPP
             Console.WriteLine(trainee.ToString());
             Trainee trainee1 = new Trainee("adi","US",60,5);
             Console.WriteLine(trainee1);
-            
+
+            Trainee trainee2 = new Trainee("john", "US", 70, 6);
+
+
         }
     }
 }

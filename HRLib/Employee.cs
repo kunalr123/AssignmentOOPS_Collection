@@ -2,7 +2,7 @@
 {
     public abstract class Employee
     {
-
+        //employee class properties
 
         #region properties
         private string name;
